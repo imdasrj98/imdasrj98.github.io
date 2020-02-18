@@ -1,0 +1,54 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('images/contact1.png');
+  color: white;
+}
+
+.main{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+}
+
+.main i{
+  margin-bottom: 10px;
+}
+
+input[type="text"], select{
+  height: 100%;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"], select{
+  height: 100%;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

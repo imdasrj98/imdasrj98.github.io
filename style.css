@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Cardo', serif;
+}
+
+#home{
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/back1.jpg");
+  background-size: cover;
+}
+
+.backImg{
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.name{
+  float: left;
+  width: 40%;
+  color: white;
+  font-family: inherit;
+}
+
+.profile{
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 0;
+  border-radius: 10%;
+}
+
+img{
+  height: 250px;
+  border-radius: 70%;
+  margin-bottom: 20px;
+}
+
+.profileText{
+  margin-bottom: 20px;
+}
+
+.profileText h2{
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.profileText h3{
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+i{
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navArea{
+  align-items: right;
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.navArea li{
+  display: inline-block;
+}
+
+.navArea li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 14px;
+}
