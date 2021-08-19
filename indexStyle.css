@@ -172,3 +172,12 @@ input[type="submit"], select{
 .btn-a {
     text-decoration: none;
 }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+}
